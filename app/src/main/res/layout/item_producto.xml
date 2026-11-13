@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_tarjeta_producto"
+    android:elevation="2dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="14dp">
+
+    <!-- Icono de categoría a la izquierda -->
+    <ImageView
+        android:id="@+id/imgCategoria"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@color/verde_claro_fondo"
+        android:contentDescription="@string/desc_icono_categoria"
+        android:padding="8dp"
+        tools:src="@drawable/ic_bebida" />
+
+    <!-- Información central del producto -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texto_principal"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Refresco de cola" />
+
+        <TextView
+            android:id="@+id/tvDetalleProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/texto_secundario"
+            android:textSize="13sp"
+            tools:text="Bebidas • 10.6 g azúcar" />
+
+        <TextView
+            android:id="@+id/tvAlternativa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/verde_oscuro"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="Alternativa: Agua con gas y rodajas de limón" />
+    </LinearLayout>
+
+    <!-- Insignia de puntuación a la derecha -->
+    <TextView
+        android:id="@+id/tvPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_badge_score"
+        android:gravity="center"
+        android:minWidth="64dp"
+        android:paddingStart="10dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="52/100" />
+
+</LinearLayout>

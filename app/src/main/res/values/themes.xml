@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Scan2Bite" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_esmeralda</item>
+        <item name="colorPrimaryDark">@color/verde_oscuro</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/fondo_pantalla</item>
+    </style>
+
+    <style name="Theme.Scan2Bite" parent="Base.Theme.Scan2Bite" />
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Scan2Bite</string>
+    <string name="subtitulo_app">Analizador nutricional inteligente</string>
+    <string name="desc_logo_app">Logo de Scan2Bite</string>
+    <string name="desc_icono_categoria">Icono de categoría del producto</string>
+
+    <string name="contador_productos">Productos analizados: %1$d</string>
+    <string name="btn_analizar_nuevo">Analizar nuevo producto</string>
+    <string name="estado_vacio">Aún no has analizado ningún producto</string>
+    <string name="titulo_historial">Historial de escaneos</string>
+
+    <string name="titulo_nuevo_escaneo">Nuevo análisis nutricional</string>
+    <string name="subtitulo_nuevo_escaneo">Introduce los datos nutricionales por cada 100 g</string>
+    <string name="label_nombre_producto">Nombre del producto</string>
+    <string name="hint_nombre_producto">Ej. Zumo de naranja, Galletas integrales…</string>
+    <string name="label_categoria">Categoría del alimento</string>
+    <string name="label_azucares">Azúcares por cada 100 g (g)</string>
+    <string name="hint_azucares">Ej. 12.5</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_guardar_historial">Guardar en historial</string>
+
+    <string name="error_nombre_vacio">Introduce el nombre del producto</string>
+    <string name="error_azucar_vacio">Introduce los gramos de azúcar</string>
+    <string name="error_azucar_invalido">Introduce un valor numérico válido (0 o superior)</string>
+    <string name="aviso_campos_incompletos">Revisa los campos marcados antes de guardar</string>
+
+    <string name="cat_bebidas">Bebidas</string>
+    <string name="cat_bolleria">Bollería</string>
+    <string name="cat_lacteos">Lácteos</string>
+    <string name="cat_cereales">Cereales</string>
+    <string name="cat_snacks">Snacks</string>
+
+    <string-array name="categorias_alimentos">
+        <item>@string/cat_bebidas</item>
+        <item>@string/cat_bolleria</item>
+        <item>@string/cat_lacteos</item>
+        <item>@string/cat_cereales</item>
+        <item>@string/cat_snacks</item>
+    </string-array>
+
+    <string name="alt_bebidas">Alternativa: Agua con gas y rodajas de limón o infusión fría sin azúcar</string>
+    <string name="alt_bolleria">Alternativa: Tostada integral con aceite de oliva o bizcocho casero de avena</string>
+    <string name="alt_lacteos">Alternativa: Yogur natural sin azúcares añadidos o kéfir natural</string>
+    <string name="alt_cereales">Alternativa: Copos de avena integral o muesli sin azúcares añadidos</string>
+    <string name="alt_snacks">Alternativa: Frutos secos naturales sin sal o palitos de zanahoria con hummus</string>
+
+    <string name="formato_categoria_azucar">%1$s • %2$s g azúcar</string>
+    <string name="formato_puntuacion">%1$d/100</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="verde_esmeralda">#2E7D32</color>
+    <color name="verde_oscuro">#1B5E20</color>
+    <color name="verde_claro_fondo">#E8F5E9</color>
+    <color name="fondo_pantalla">#F5F7F5</color>
+    <color name="borde_tarjeta">#DCE5DC</color>
+    <color name="texto_principal">#1C261D</color>
+    <color name="texto_secundario">#37474F</color>
+    <color name="score_alto">#2E7D32</color>
+    <color name="score_medio">#EF6C00</color>
+    <color name="score_bajo">#C62828</color>
+    <color name="btn_cancelar_borde">#B0BEC5</color>
+</resources>
